@@ -35,7 +35,7 @@ void test_string_concat() {
 
 void test_string_cmp() {
   char *s1 = "Hello";
-  char *s2 = "World";
+  char *s2 = "Fabrice";
   int i = string_cmp(s1,s1);
   printf("string_cmp(\"%s\",\"%s\")=%d\n", s1,s1,i);
 
